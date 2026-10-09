@@ -1,8 +1,8 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from '../../pages/login';
-import { SelectProduct } from '../../pages/SelectProduct';
-import {payment}from '../../pages/payment';
-import {logout} from '../../pages/logout';
+import { LoginPage } from '../../pages/ecommerce/login';
+import { SelectProduct } from '../../pages/ecommerce/SelectProduct';
+import {payment}from '../../pages/ecommerce/payment';
+import {logout} from '../../pages/ecommerce/logout';
 
 test.beforeEach('login to website', async ({ page }) => {
 
